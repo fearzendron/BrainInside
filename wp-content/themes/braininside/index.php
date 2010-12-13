@@ -10,7 +10,7 @@
 			 */
 			 //get_template_part( 'loop', 'index' );
 			?>
-            centro
+            INDEX
 			</div><!-- #content -->
 		</div><!-- #container -->
 

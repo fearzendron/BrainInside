@@ -62,8 +62,7 @@
 				</ul>
             </div>
 			<a href="#" alt="Siga nosso twitter!!!">
-			<div id="twitter" class="img_twitter tamanhoTwitter">
-			</div>
+				<div id="twitter" class="img_twitter tamanhoTwitter">
+				</div>
 			</a>
-        </div>
-    </div>
+    <!-- O DOIS DIV's FINAIS DO CABEÇALHO DEVEm FICAR NA PAGINA QUE IMPLEMENTA O HEADER -->
