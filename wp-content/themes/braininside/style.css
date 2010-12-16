@@ -37,6 +37,11 @@ del { text-decoration: line-through; }
 table { border-collapse: collapse; border-spacing: 0; }
 a img { border: none; }
 
+/* Desabilita a função de mudar o tamanho do textarea */
+textarea {
+    resize: none;
+}
+
 
 @font-face {
 	font-family: 'GothamHTFBold';
@@ -59,25 +64,31 @@ a img { border: none; }
 }
 
 /* Estilos genericos que podem ser usados em outras classes */
+.space_between_word { letter-spacing:2px; }
 .larguraMaxima      { min-width:940px; max-width:940px; } /* Largura da pagina */
 .alturaMaximaHeader { min-height:584px; max-height:584px; } /* Altura maxima do header inicial */
 .centralizarCorpo   { margin:auto 50%; left:-478px; position:absolute; } /* Centraliza a pagina no meio do navegador */
 .tamanhoMenu        { width:584px; height:91px; position:absolute; left:280px; top:18px; } /* Coloca a medida do menu */
 .tamanhoLogo        { min-width:250px; min-height:109px; position:absolute; } /* Coloca a medida do logo */
 .tamanhoTwitter     { min-width:60px; min-height:91px; position:absolute; left:880px; top:18px; } /* Coloca a medida no twitter lateral */
+.box_message        { border:0px; }
 
 .font_title { color:#FFF; font-size:2.5em; font-family: 'Helvetica'; font-weight:bold; }
 .font_text  { color:#FFF; font-size:13px; font-family: 'Helvetica'; font-weight:lighter; }
+.color_title_bottom { color:#5d5d5d; }
 .espacamento_entre_linhas { line-height:18px; }
 
 /* Imagens utilizadas no layout */
-.img_logo           { background-image:url(images/logo_braininside_final.png); background-repeat:no-repeat; }
-.img_braininside    { background-image:url(images/bg.png); background-repeat:no-repeat; }
-.img_moldura_menu   { background-image:url(images/moldura_menu.png); background-repeat:no-repeat; }
-.img_sep            { background-image:url(images/m_sep.png); background-repeat:no-repeat; min-height:11px; min-width:11px; }
-.img_twitter        { background-image:url(images/follow.png); background-repeat:no-repeat; }
-.img_box            { background-image:url(images/box.png); background-repeat:no-repeat; } /* Box de fundo da página inicial - menu direito */
-.img_box_lines      { background-image:url(images/box_lines.png); background-repeat:no-repeat; }
+.img_logo           		{ background-image:url(images/logo_braininside_final.png); background-repeat:no-repeat; }
+.img_braininside    		{ background-image:url(images/bg.png); background-repeat:no-repeat; }
+.img_moldura_menu   		{ background-image:url(images/moldura_menu.png); background-repeat:no-repeat; }
+.img_moldura_menu_bottom    { background-image:url(images/moldura_menu_bottom.png); background-repeat:no-repeat; }
+.img_sep            		{ background-image:url(images/m_sep.png); background-repeat:no-repeat; min-height:11px; min-width:11px; }
+.img_twitter        		{ background-image:url(images/follow.png); background-repeat:no-repeat; }
+.img_box            		{ background-image:url(images/box.png); background-repeat:no-repeat; } /* Box de fundo da página inicial - menu direito */
+.img_box_lines      		{ background-image:url(images/box_lines.png); background-repeat:no-repeat; }
+.img_bg_ground      		{ background-image:url(images/bg_ground.png); background-repeat:repeat-x; }
+.img_box_message    		{ background-image:url(images/box_message.png); background-repeat:no-repeat; }
 
 /* Menu Superior */
 .menu { list-style-type: none;  position:absolute; left:40px; }
@@ -86,8 +97,19 @@ a img { border: none; }
 font-family: 'GothamHTFBold'; font-size: 18px; color: #FFFFFF; }
 .menu li a:hover { color: #ffba00; }
 
+.menu_bottom { list-style-type: none;  position:absolute; left:40px; }
+.menu_bottom li { float:left; }
+.menu_bottom li a { padding-right: 10px; padding-left: 9px; display: block; line-height: 92px; text-decoration: none;
+font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
+.menu_bottom li a:hover { color: #949494; }
+
+
+
 /* Conteudos estáticos da pagina inicial */
 #top-container { top:200px; position:absolute; }
 	#left-top-container { width:519px; position:absolute; line-height:16px; }
 	#right-top-container { width:372px; position:absolute; line-height:16px; left:569px; }
 		#box-links { height:384px; }
+#bottom-container { top:637px; position:absolute; }
+	#left-bottom-container { width:519px; position:absolute; line-height:16px; }
+	#right-bottom-container { width:372px; position:absolute; line-height:16px; left:569px; }
