@@ -63,12 +63,19 @@ textarea {
 	font-style: normal;
 }
 
+/* Estilo padrão do link */
+a:link {text-decoration: none; color:#ffba00;}
+a:visited {text-decoration: none; color:#ffba00;}
+a:hover {text-decoration: underline; color: #ffba00;}
+a:active {text-decoration: none; color: #ffba00;}
+
 /* Estilos genericos que podem ser usados em outras classes */
 .space_between_word { letter-spacing:2px; }
 .larguraMaxima      { min-width:940px; max-width:940px; } /* Largura da pagina */
 .alturaMaximaHeader { min-height:584px; max-height:584px; } /* Altura maxima do header inicial */
 .centralizarCorpo   { margin:auto 50%; left:-478px; position:absolute; } /* Centraliza a pagina no meio do navegador */
 .tamanhoMenu        { width:584px; height:91px; position:absolute; left:280px; top:18px; } /* Coloca a medida do menu */
+.tamanhoMenuBottom  { left:0px; top:659px;}
 .tamanhoLogo        { min-width:250px; min-height:109px; position:absolute; } /* Coloca a medida do logo */
 .tamanhoTwitter     { min-width:60px; min-height:91px; position:absolute; left:880px; top:18px; } /* Coloca a medida no twitter lateral */
 .box_message        { border:0px; }
@@ -89,6 +96,8 @@ textarea {
 .img_box_lines      		{ background-image:url(images/box_lines.png); background-repeat:no-repeat; }
 .img_bg_ground      		{ background-image:url(images/bg_ground.png); background-repeat:repeat-x; }
 .img_box_message    		{ background-image:url(images/box_message.png); background-repeat:no-repeat; }
+.img_circle_artigos         { background-image:url(images/artigos_circle.png); background-repeat:no-repeat; }
+.img_circle_tweet           { background-image:url(images/tweet_circle.png); background-repeat:no-repeat; }
 
 /* Menu Superior */
 .menu { list-style-type: none;  position:absolute; left:40px; }
@@ -103,8 +112,6 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #FFFFFF; }
 font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 .menu_bottom li a:hover { color: #949494; }
 
-
-
 /* Conteudos estáticos da pagina inicial */
 #top-container { top:200px; position:absolute; }
 	#left-top-container { width:519px; position:absolute; line-height:16px; }
@@ -113,3 +120,11 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 #bottom-container { top:637px; position:absolute; }
 	#left-bottom-container { width:519px; position:absolute; line-height:16px; }
 	#right-bottom-container { width:372px; position:absolute; line-height:16px; left:569px; }
+	
+/* Posição dos circulos de artigos e tweets */
+#box_lines {position:absolute; width:340px; height:146px; top:70px; left:20px;}
+#circle_artigos { position:relative; width:45px; height:45px; top:22px; left:-17px; }
+#circle_tweet   { position:relative; width:45px; height:45px; top:165px; left:-17px; }
+.right_titles { position:relative; color:#FFF; font-size:24px; font-family: 'GothamHTFMedium'; }
+	.articles_position { top:-10px; left:40px; }
+	.tweet_position { top:135px; left:40px; }

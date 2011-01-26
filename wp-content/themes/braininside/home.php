@@ -7,7 +7,7 @@
 				<br /><br />
 				<p class="font_text espacamento_entre_linhas">Nosso objetivo é propagar a informação e a colaboração entre os profissionais da área de tecnologia de forma clara e objetiva. Aqui no site você encontrará artigos sobre desenvolvimento de software.
 					<br /><br />
-					Caso você queira entrar em contato para uma possivel consultoria ou desenvolvimento de alguma solução por favor entre em contato conosco <a href="#">clicando aqui</a>
+					Caso você queira entrar em contato para uma possivel consultoria ou desenvolvimento de alguma solução por favor entre em contato conosco <a href="#"><b>clicando aqui</b></a>.
 				</p>
 				
 				<br /><br /><br /><br />
@@ -21,12 +21,18 @@
 
 			<div id="right-top-container">
 				<div id="box-links" class="img_box">
-					<p>NOVIDADES</p>
+					<div id="box_lines" class="img_box_lines"></div>
+					<div id="circle_artigos" class="img_circle_artigos"></div>
+					<p class="right_titles articles_position">Novidades</p>
+						<p>Primeiros passos com Java</p>
+						<p>Primeiros passos com Ruby</p>
+						<p>Primeiros passos com .NET</p>
 						<?php
 						/* Loop dos ultimos 3 posts */
 						 //get_template_part( 'loop', 'index' );
 						?>
-					<p>Último tweet</p>
+					<div id="circle_tweet" class="img_circle_tweet"></div>
+					<p class="right_titles tweet_position">Último tweet</p>
 					<p>
 						<?php /*TWEET*/ ?>
 					</p>
@@ -64,13 +70,11 @@
 			<p class="font_text espacamento_entre_linhas color_title_bottom">Entre em contato conosco e tire seus projetos do papel</p>
 			<br /><br />
 			<p>
-				<textarea rows="16" cols="70" class="img_box_message box_message">
-					Digite a mensagem aqui ...
-				</textarea>
+				<textarea rows="16" cols="70" class="img_box_message box_message">Digite a mensagem aqui ...</textarea>
 			</p>
 			<br /><br /><br />
 			
-			<div id="menu_bottom" class="img_moldura_menu_bottom tamanhoMenu">
+			<div id="menu_bottom" class="img_moldura_menu_bottom tamanhoMenu tamanhoMenuBottom">
             	<ul class="menu_bottom">
 					<li><a href="#">HOME</a></li>
 					<li><a href="#"><img border="0" src="wp-content/themes/braininside/images/m_sep.png" /></a></li>
@@ -90,7 +94,7 @@
 
 		<div id="right-bottom-container">
 			<div id="box-links">
-				<p>NOVIDADES</p>
+				<div>NOVIDADES</div>
 					<?php
 					/* Loop dos ultimos 3 posts */
 					 //get_template_part( 'loop', 'index' );
