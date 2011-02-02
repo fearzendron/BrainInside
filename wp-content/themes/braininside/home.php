@@ -24,18 +24,23 @@
 					<div id="box_lines" class="img_box_lines"></div>
 					<div id="circle_artigos" class="img_circle_artigos"></div>
 					<p class="right_titles articles_position">Novidades</p>
-						<p>Primeiros passos com Java</p>
-						<p>Primeiros passos com Ruby</p>
-						<p>Primeiros passos com .NET</p>
+						<div class="ultimas_novidades">
+						<p><a href="#">Primeiros passos com Java</a></p>
+						<p><a href="#">Primeiros passos com Ruby</a></p>
+						<p><a href="#">Primeiros passos com .NET</a></p>
+						</div>
 						<?php
 						/* Loop dos ultimos 3 posts */
 						 //get_template_part( 'loop', 'index' );
 						?>
 					<div id="circle_tweet" class="img_circle_tweet"></div>
 					<p class="right_titles tweet_position">Último tweet</p>
-					<p>
-						<?php /*TWEET*/ ?>
-					</p>
+					<div class="ultimo_tweet">
+						<p>
+							Google firma parcerias para serviço de TV info.abril.com.br/noticias/merca...via @info_plantao
+							<?php /*TWEET*/ ?>
+						</p>
+					</div>
 				</div>
 			</div>
 

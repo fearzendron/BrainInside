@@ -98,6 +98,7 @@ a:active {text-decoration: none; color: #ffba00;}
 .img_box_message    		{ background-image:url(images/box_message.png); background-repeat:no-repeat; }
 .img_circle_artigos         { background-image:url(images/artigos_circle.png); background-repeat:no-repeat; }
 .img_circle_tweet           { background-image:url(images/tweet_circle.png); background-repeat:no-repeat; }
+.img_quotes                 { background-image:url(images/quotes.png); background-repeat:no-repeat; }
 
 /* Menu Superior */
 .menu { list-style-type: none;  position:absolute; left:40px; }
@@ -127,4 +128,8 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 #circle_tweet   { position:relative; width:45px; height:45px; top:165px; left:-17px; }
 .right_titles { position:relative; color:#FFF; font-size:24px; font-family: 'GothamHTFMedium'; }
 	.articles_position { top:-10px; left:40px; }
+		.ultimas_novidades { position:absolute; top:75px; left:40px; line-height:45px; }
+		.ultimas_novidades p { color:#CCC; font-family: 'Helvetica'; font-size:14px; }
+		.ultimas_novidades p a { color:#CCC; }
 	.tweet_position { top:135px; left:40px; }
+		.ultimo_tweet { position:absolute; font-size:14px; color:#CCC; top:270px; left:40px; width:300px; }
