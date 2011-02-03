@@ -35,6 +35,7 @@
 						?>
 					<div id="circle_tweet" class="img_circle_tweet"></div>
 					<p class="right_titles tweet_position">Último tweet</p>
+					<div class="img_quotes quote_position"></div>
 					<div class="ultimo_tweet">
 						<p>
 							Google firma parcerias para serviço de TV info.abril.com.br/noticias/merca...via @info_plantao
@@ -99,15 +100,49 @@
 
 		<div id="right-bottom-container">
 			<div id="box-links">
-				<div>NOVIDADES</div>
-					<?php
-					/* Loop dos ultimos 3 posts */
-					 //get_template_part( 'loop', 'index' );
-					?>
-				<p>Último tweet</p>
-				<p>
-					<?php /*TWEET*/ ?>
-				</p>
+				
+				<div id="rafael" class="img_box_people">
+					<div id="foto_rafael" class="img_rafael"></div>
+					<div id="description_rafael">
+						<p>Rafael Bueno</p>
+						<p>Engenheiro de Software</p>
+						<p>Artigos escritos (0)<p>
+						<p>ver curriculo</p>
+						<div id="links">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<br /><br />
+				<div id="zendron" class="img_box_people">
+					<div id="foto_zendron" class="img_zendron"></div>
+					<div id="description_zendron">
+						<p>Fernando Zendron</p>
+						<p>Engenheiro de Software</p>
+						<p>Artigos escritos (0)<p>
+						<p>ver curriculo</p>
+						<div id="links">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 

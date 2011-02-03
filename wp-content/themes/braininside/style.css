@@ -99,6 +99,17 @@ a:active {text-decoration: none; color: #ffba00;}
 .img_circle_artigos         { background-image:url(images/artigos_circle.png); background-repeat:no-repeat; }
 .img_circle_tweet           { background-image:url(images/tweet_circle.png); background-repeat:no-repeat; }
 .img_quotes                 { background-image:url(images/quotes.png); background-repeat:no-repeat; }
+.img_box_people             { background-image:url(images/box_people.png); background-repeat:no-repeat; }
+.img_box_people_icons       { background-image:url(images/box_people_icons.png); background-repeat:no-repeat; }
+.img_rafael                 { background-image:url(images/rafael_bueno.png); background-repeat:no-repeat; }
+.img_zendron                { background-image:url(images/zendron.png); background-repeat:no-repeat; }
+.img_ico1                   { background-image:url(images/ico1.png); background-repeat:no-repeat; }
+.img_ico2                   { background-image:url(images/ico2.png); background-repeat:no-repeat; }
+.img_ico3                   { background-image:url(images/ico3.png); background-repeat:no-repeat; }
+.img_ico4                   { background-image:url(images/ico4.png); background-repeat:no-repeat; }
+.img_ico5                   { background-image:url(images/ico5.png); background-repeat:no-repeat; }
+.img_ico6                   { background-image:url(images/ico6.png); background-repeat:no-repeat; }
+.img_ico7                   { background-image:url(images/ico7.png); background-repeat:no-repeat; }
 
 /* Menu Superior */
 .menu { list-style-type: none;  position:absolute; left:40px; }
@@ -132,4 +143,15 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 		.ultimas_novidades p { color:#CCC; font-family: 'Helvetica'; font-size:14px; }
 		.ultimas_novidades p a { color:#CCC; }
 	.tweet_position { top:135px; left:40px; }
-		.ultimo_tweet { position:absolute; font-size:14px; color:#CCC; top:270px; left:40px; width:300px; }
+		.quote_position { position:relative; width:46px; height:34px; top:150px; left:40px; }
+		.ultimo_tweet { position:absolute; font-size:14px; color:#CCC; top:273px; left:70px; width:290px; }
+
+#rafael { width:372px; height:125px; }
+#zendron { width:372px; height:125px; }
+	#foto_rafael { position:absolute; width:104px; height:104px; top:17px; left:-12px;}
+	#foto_zendron { position:absolute; width:104px; height:104px; top:175px; left:-12px;}
+	#description_rafael { position:absolute; left:110px; top:20px; }
+	#description_zendron { position:absolute; left:110px; top:175px; }
+	.name { color:#858585; }
+	
+	
