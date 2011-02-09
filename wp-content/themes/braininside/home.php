@@ -104,20 +104,20 @@
 				<div id="rafael" class="img_box_people">
 					<div id="foto_rafael" class="img_rafael"></div>
 					<div id="description_rafael">
-						<p>Rafael Bueno</p>
-						<p>Engenheiro de Software</p>
-						<p>Artigos escritos (0)<p>
-						<p>ver curriculo</p>
-						<div id="links">
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
+						<p class="size_name color_title_bottom">Rafael Bueno</p>
+						<p class="ocupation color_title_bottom">Engenheiro de Software</p>
+						<p class="color_link_of_us"><a href="#">artigos escritos (0)</a><p>
+						<p class="color_link_of_us"><a href="#">ver curriculo</a></p>
+						<div id="links_network" class="img_box_people_icons">
+							<div class="pos_links">
+								<a href="#"><div class="img_ico1 ico_size"></div></a>
+								<a href="#"><div class="img_ico2 ico_size"></div></a>
+								<a href="#"><div class="img_ico3 ico_size"></div></a>
+								<a href="#"><div class="img_ico4 ico_size"></div></a>
+								<a href="#"><div class="img_ico5 ico_size"></div></a>
+								<a href="#"><div class="img_ico6 ico_size"></div></a>
+								<a href="#"><div class="img_ico7 ico_size"></div></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -125,25 +125,46 @@
 				<div id="zendron" class="img_box_people">
 					<div id="foto_zendron" class="img_zendron"></div>
 					<div id="description_zendron">
-						<p>Fernando Zendron</p>
-						<p>Engenheiro de Software</p>
-						<p>Artigos escritos (0)<p>
-						<p>ver curriculo</p>
-						<div id="links">
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
+						<p class="size_name color_title_bottom">Fernando Zendron</p>
+						<p class="ocupation color_title_bottom">Engenheiro de Software</p>
+						<p class="color_link_of_us"><a href="#">artigos escritos (0)</a><p>
+						<p class="color_link_of_us"><a href="#">ver curriculo</a></p>
+						<div id="links_network" class="img_box_people_icons">
+							<div class="pos_links">
+								<a href="#"><div class="img_ico1 ico_size"></div></a>
+								<a href="#"><div class="img_ico2 ico_size"></div></a>
+								<a href="#"><div class="img_ico3 ico_size"></div></a>
+								<a href="#"><div class="img_ico4 ico_size"></div></a>
+								<a href="#"><div class="img_ico5 ico_size"></div></a>
+								<a href="#"><div class="img_ico6 ico_size"></div></a>
+								<a href="#"><div class="img_ico7 ico_size"></div></a>
+							</div>
 						</div>
 					</div>
 				</div>
 				
 			</div>
+			
+			<div id="form_names">
+				<div class="img_box_form box_form_size">
+					<INPUT TYPE=TEXT id="txtname" NAME="txtname" VALUE="Nome." size="62" class="img_box_form_input box_message" />
+					<INPUT TYPE=TEXT id="txtemail" NAME="txtemail" VALUE="E-mail." size="62" class="img_box_form_input box_message" />
+				</div>
+				<div id="form_names_button">
+					<input type="button" value="Enviar Mensagem" onclick="#">
+				</div>
+			</div>
+			
+			<div id="rights">
+				2010 BrainInside.<br />
+				Todos os direitos reservados<br />
+				São Paulo - Brasil
+				
+				<div id="foca">
+					
+				</div>
+			</div>
+			
 		</div>
 
 	</div><!-- #top-container -->

@@ -100,7 +100,7 @@ a:active {text-decoration: none; color: #ffba00;}
 .img_circle_tweet           { background-image:url(images/tweet_circle.png); background-repeat:no-repeat; }
 .img_quotes                 { background-image:url(images/quotes.png); background-repeat:no-repeat; }
 .img_box_people             { background-image:url(images/box_people.png); background-repeat:no-repeat; }
-.img_box_people_icons       { background-image:url(images/box_people_icons.png); background-repeat:no-repeat; }
+.img_box_people_icons       { background-image:url(images/box_people_icons.png); background-repeat:no-repeat;}
 .img_rafael                 { background-image:url(images/rafael_bueno.png); background-repeat:no-repeat; }
 .img_zendron                { background-image:url(images/zendron.png); background-repeat:no-repeat; }
 .img_ico1                   { background-image:url(images/ico1.png); background-repeat:no-repeat; }
@@ -110,6 +110,10 @@ a:active {text-decoration: none; color: #ffba00;}
 .img_ico5                   { background-image:url(images/ico5.png); background-repeat:no-repeat; }
 .img_ico6                   { background-image:url(images/ico6.png); background-repeat:no-repeat; }
 .img_ico7                   { background-image:url(images/ico7.png); background-repeat:no-repeat; }
+.img_box_form               { background-image:url(images/box_form.png); background-repeat:no-repeat; }
+	.box_form_size          { width:377px; height:148px; position:relative; top:30px; }
+.img_box_form_input         { background-image:url(images/input_form.png); background-repeat:no-repeat; }
+.ico_size					{ width:16px; height:16px; float:left;}
 
 /* Menu Superior */
 .menu { list-style-type: none;  position:absolute; left:40px; }
@@ -146,12 +150,38 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 		.quote_position { position:relative; width:46px; height:34px; top:150px; left:40px; }
 		.ultimo_tweet { position:absolute; font-size:14px; color:#CCC; top:273px; left:70px; width:290px; }
 
+/* Estilo da prate de profissionais */
 #rafael { width:372px; height:125px; }
 #zendron { width:372px; height:125px; }
 	#foto_rafael { position:absolute; width:104px; height:104px; top:17px; left:-12px;}
 	#foto_zendron { position:absolute; width:104px; height:104px; top:175px; left:-12px;}
 	#description_rafael { position:absolute; left:110px; top:20px; }
 	#description_zendron { position:absolute; left:110px; top:175px; }
-	.name { color:#858585; }
+	.ocupation { font-size:12px; font-family: 'Helvetica'; line-height:15px; padding-bottom:5px; }
+	.size_name { font-size:16px; font-family: 'GothamHTFMedium'; }
+	.color_link_of_us a:link, a:visited, a:hover, a:active { 
+		color:#93404f; 
+		font-size:11px; 
+		font-family: 'Helvetica'; 
+		line-height:0.3em; 
+		text-decoration: none; 
+		font-weight:bold;
+		}
+	#links_network { position:absolute; width:186px; height:38px; }
+	.pos_links { position:absolute; left:20px; top:10px; }
+	.pos_links div { padding:0px 3px 0px 4px; }
 	
+/* Area de form */
+#form_names { position:relative; }
+	#txtname  { top:20px; left:24px; position:absolute; min-height:42px; }
+	#txtemail { top:80px; left:24px; position:absolute; min-height:42px; }
+	#form_names_button { top:200px; left:0px; position:absolute; border:1px solid; border-color:#696 #363 #363 #696; background-color:#; }
 	
+	color:#050; 
+	3	  font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+	4	  background-color:#fed; 
+	5	  border:1px solid; 
+	6	  border-color: #696 #363 #363 #696;
+	
+#rights { top:150px; left:24px; position:relative; min-height:42px; }
+	#foca {}
