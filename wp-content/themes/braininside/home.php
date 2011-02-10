@@ -38,8 +38,15 @@
 					<div class="img_quotes quote_position"></div>
 					<div class="ultimo_tweet">
 						<p>
-							Google firma parcerias para serviço de TV info.abril.com.br/noticias/merca...via @info_plantao
-							<?php /*TWEET*/ ?>
+							<?php
+							//Pega o endereço do twitter como rss e mostra na nossa pagina
+							 $url = "http://twitter.com/statuses/user_timeline/16948131.rss?count=1";
+							 $xml = simplexml_load_file($url); //Objeto ja incluido no php
+							foreach ($xml->channel->item as $node) {
+								//printf('<a href="%s">%s</a>', $node->link, $node->title);
+								printf('%s', $node->title);
+							}
+							?>
 						</p>
 					</div>
 				</div>
@@ -151,7 +158,7 @@
 					<INPUT TYPE=TEXT id="txtemail" NAME="txtemail" VALUE="E-mail." size="62" class="img_box_form_input box_message" />
 				</div>
 				<div id="form_names_button">
-					<input type="button" value="Enviar Mensagem" onclick="#">
+					<input type="button" value="Enviar Mensagem" class="submit" onclick="#">
 				</div>
 			</div>
 			
