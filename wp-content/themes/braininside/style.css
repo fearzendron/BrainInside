@@ -80,9 +80,10 @@ a:active {text-decoration: none; color: #ffba00;}
 .tamanhoTwitter     { min-width:60px; min-height:91px; position:absolute; left:880px; top:18px; } /* Coloca a medida no twitter lateral */
 .box_message        { border:0px; }
 
-.font_title { color:#FFF; font-size:2.5em; font-family: 'Helvetica'; font-weight:bold; }
+.font_title { color:#FFF; font-size:2.4em; font-family: 'Helvetica'; font-weight:bold; }
 .font_text  { color:#FFF; font-size:13px; font-family: 'Helvetica'; font-weight:lighter; }
-.color_title_bottom { color:#5d5d5d; }
+.font_inputs { color:#bdbdbd; font-size:14px; font-family: 'Helvetica'; font-weight:bold; line-height:15px; }
+.color_title_bottom { color:#2d2d2d; }
 .espacamento_entre_linhas { line-height:18px; }
 
 /* Imagens utilizadas no layout */
@@ -125,7 +126,7 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #FFFFFF; }
 
 .menu_bottom { list-style-type: none;  position:absolute; left:40px; }
 .menu_bottom li { float:left; }
-.menu_bottom li a { padding-right: 10px; padding-left: 9px; display: block; line-height: 92px; text-decoration: none;
+.menu_bottom li a { padding-right: 10px; padding-left: 6px; display: block; line-height: 92px; text-decoration: none;
 font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 .menu_bottom li a:hover { color: #949494; }
 
@@ -161,7 +162,7 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 	#description_zendron { position:absolute; left:110px; top:175px; }
 	.ocupation { font-size:12px; font-family: 'Helvetica'; line-height:15px; padding-bottom:5px; }
 	.size_name { font-size:16px; font-family: 'GothamHTFMedium'; }
-	.color_link_of_us a:link, a:visited, a:hover, a:active { 
+	.color_link_of_us:link, .color_link_of_us:visited, .color_link_of_us:hover, .color_link_of_us:active { 
 		color:#93404f; 
 		font-size:11px; 
 		font-family: 'Helvetica'; 
@@ -169,14 +170,14 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 		text-decoration: none; 
 		font-weight:bold;
 		}
-	#links_network { position:absolute; width:186px; height:38px; }
-	.pos_links { position:absolute; left:20px; top:10px; }
+	#links_network { position:relative; width:186px; height:38px; }
+	.pos_links { position:relative; left:20px; top:10px; }
 	.pos_links div { padding:0px 3px 0px 4px; }
 	
 /* Area de form */
 #form_names { position:relative; }
-	#txtname  { top:20px; left:24px; position:absolute; min-height:42px; }
-	#txtemail { top:80px; left:24px; position:absolute; min-height:42px; }
+	#txtname  { top:20px; left:24px; position:absolute; min-height:42px; width:330px; }
+	#txtemail { top:80px; left:24px; position:absolute; min-height:42px; width:330px; }
 	#form_names_button { top:190px; left:0px; position:absolute; width:376px; height:55px; }
 			.submit { color:#FFF; background-color:transparent; border:0px solid; width:376px; height:55px; font-size:16px; }
 	

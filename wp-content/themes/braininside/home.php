@@ -43,8 +43,7 @@
 							 $url = "http://twitter.com/statuses/user_timeline/16948131.rss?count=1";
 							 $xml = simplexml_load_file($url); //Objeto ja incluido no php
 							foreach ($xml->channel->item as $node) {
-								//printf('<a href="%s">%s</a>', $node->link, $node->title);
-								printf('%s', $node->title);
+								printf('<a href="%s" target="_BLANCK">%s</a>', $node->link, $node->title);
 							}
 							?>
 						</p>
@@ -83,7 +82,7 @@
 			<p class="font_text espacamento_entre_linhas color_title_bottom">Entre em contato conosco e tire seus projetos do papel</p>
 			<br /><br />
 			<p>
-				<textarea rows="16" cols="70" class="img_box_message box_message">Digite a mensagem aqui ...</textarea>
+				<textarea rows="16" cols="70" class="img_box_message box_message font_inputs">Digite a mensagem aqui ...</textarea>
 			</p>
 			<br /><br /><br />
 			
@@ -113,8 +112,8 @@
 					<div id="description_rafael">
 						<p class="size_name color_title_bottom">Rafael Bueno</p>
 						<p class="ocupation color_title_bottom">Engenheiro de Software</p>
-						<p class="color_link_of_us"><a href="#">artigos escritos (0)</a><p>
-						<p class="color_link_of_us"><a href="#">ver curriculo</a></p>
+						<p><a class="color_link_of_us" href="#">artigos escritos (0)</a><p>
+						<p><a class="color_link_of_us" href="#">ver curriculo</a></p>
 						<div id="links_network" class="img_box_people_icons">
 							<div class="pos_links">
 								<a href="#"><div class="img_ico1 ico_size"></div></a>
@@ -134,8 +133,8 @@
 					<div id="description_zendron">
 						<p class="size_name color_title_bottom">Fernando Zendron</p>
 						<p class="ocupation color_title_bottom">Engenheiro de Software</p>
-						<p class="color_link_of_us"><a href="#">artigos escritos (0)</a><p>
-						<p class="color_link_of_us"><a href="#">ver curriculo</a></p>
+						<p><a class="color_link_of_us" href="#">artigos escritos (0)</a><p>
+						<p><a class="color_link_of_us" href="#">ver curriculo</a></p>
 						<div id="links_network" class="img_box_people_icons">
 							<div class="pos_links">
 								<a href="#"><div class="img_ico1 ico_size"></div></a>
@@ -154,8 +153,8 @@
 			
 			<div id="form_names">
 				<div class="img_box_form box_form_size">
-					<INPUT TYPE=TEXT id="txtname" NAME="txtname" VALUE="Nome." size="62" class="img_box_form_input box_message" />
-					<INPUT TYPE=TEXT id="txtemail" NAME="txtemail" VALUE="E-mail." size="62" class="img_box_form_input box_message" />
+					<INPUT TYPE=TEXT id="txtname" NAME="txtname" VALUE="Nome." size="62" class="img_box_form_input box_message font_inputs" />
+					<INPUT TYPE=TEXT id="txtemail" NAME="txtemail" VALUE="E-mail." size="62" class="img_box_form_input box_message font_inputs" />
 				</div>
 				<div id="form_names_button">
 					<input type="button" value="Enviar Mensagem" class="submit" onclick="#">
