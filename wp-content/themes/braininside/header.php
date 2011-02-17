@@ -42,27 +42,28 @@
 	?>
 </head>
 
-  <body <?php body_class(); ?>>
-    
-    <div id="cabecalho" class="img_braininside alturaMaximaHeader">
-    	<div id="interno_cabecalho" class="alturaMaximaHeader larguraMaxima centralizarCorpo">
+<body <?php body_class(); ?>>
+
+	<div id="cabecalho" class="img_braininside alturaMaximaHeader">
+		<div id="interno_cabecalho" class="alturaMaximaHeader larguraMaxima centralizarCorpo">
         	<div id="logo" class="img_logo tamanhoLogo"></div>
             <div id="menu" class="img_moldura_menu tamanhoMenu">
             	<ul class="menu">
-					<li><a href="#">HOME</a></li>
+					<li><a href="http://localhost/braininside/">HOME</a></li>
 					<li><a href="#"><img border="0" src="wp-content/themes/braininside/images/m_sep.png" /></a></li>
-					
+			
 					<li><a href="#">ARTIGOS</a></li>
 					<li><a href="#"><img border="0" src="wp-content/themes/braininside/images/m_sep.png" /></a></li>
-					
-					<li><a href="#">PROJETOS</a></li>
+			
+					<li><a href="http://localhost/braininside/projetos.php">PROJETOS</a></li>
 					<li><a href="#"><img border="0" src="wp-content/themes/braininside/images/m_sep.png" /></a></li>
-					
-					<li><a href="#">CONTATO</a></li>
+			
+					<li><a href="http://localhost/braininside/contato.php">CONTATO</a></li>
 				</ul>
             </div>
 			<a href="#" alt="Siga nosso twitter!!!">
 				<div id="twitter" class="img_twitter tamanhoTwitter">
 				</div>
 			</a>
-    <!-- O DOIS DIV's FINAIS DO CABEÇALHO DEVEm FICAR NA PAGINA QUE IMPLEMENTA O HEADER -->
+		    <!-- O DOIS DIV's FINAIS DO CABEÇALHO DEVEm FICAR NA PAGINA QUE IMPLEMENTA O HEADER -->
+	

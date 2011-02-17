@@ -69,23 +69,6 @@ a:visited {text-decoration: none; color:#ffba00;}
 a:hover {text-decoration: underline; color: #ffba00;}
 a:active {text-decoration: none; color: #ffba00;}
 
-/* Estilos genericos que podem ser usados em outras classes */
-.space_between_word { letter-spacing:2px; }
-.larguraMaxima      { min-width:940px; max-width:940px; } /* Largura da pagina */
-.alturaMaximaHeader { min-height:584px; max-height:584px; } /* Altura maxima do header inicial */
-.centralizarCorpo   { margin:auto 50%; left:-478px; position:absolute; } /* Centraliza a pagina no meio do navegador */
-.tamanhoMenu        { width:584px; height:91px; position:absolute; left:280px; top:18px; } /* Coloca a medida do menu */
-.tamanhoMenuBottom  { left:0px; top:659px;}
-.tamanhoLogo        { min-width:250px; min-height:109px; position:absolute; } /* Coloca a medida do logo */
-.tamanhoTwitter     { min-width:60px; min-height:91px; position:absolute; left:880px; top:18px; } /* Coloca a medida no twitter lateral */
-.box_message        { border:0px; }
-
-.font_title { color:#FFF; font-size:2.4em; font-family: 'Helvetica'; font-weight:bold; }
-.font_text  { color:#FFF; font-size:13px; font-family: 'Helvetica'; font-weight:lighter; }
-.font_inputs { color:#bdbdbd; font-size:14px; font-family: 'Helvetica'; font-weight:bold; line-height:15px; }
-.color_title_bottom { color:#2d2d2d; }
-.espacamento_entre_linhas { line-height:18px; }
-
 /* Imagens utilizadas no layout */
 .img_logo           		{ background-image:url(images/logo_braininside_final.png); background-repeat:no-repeat; }
 .img_braininside    		{ background-image:url(images/bg.png); background-repeat:no-repeat; }
@@ -96,6 +79,8 @@ a:active {text-decoration: none; color: #ffba00;}
 .img_box            		{ background-image:url(images/box.png); background-repeat:no-repeat; } /* Box de fundo da página inicial - menu direito */
 .img_box_lines      		{ background-image:url(images/box_lines.png); background-repeat:no-repeat; }
 .img_bg_ground      		{ background-image:url(images/bg_ground.png); background-repeat:repeat-x; }
+.img_box_tweet_post         { background-image:url(images/box_tweet_post.png); background-repeat:repeat-x; }
+	.box_tweet_post_size    { width:429px; height:129px; }
 .img_box_message    		{ background-image:url(images/box_message.png); background-repeat:no-repeat; }
 .img_circle_artigos         { background-image:url(images/artigos_circle.png); background-repeat:no-repeat; }
 .img_circle_tweet           { background-image:url(images/tweet_circle.png); background-repeat:no-repeat; }
@@ -115,22 +100,48 @@ a:active {text-decoration: none; color: #ffba00;}
 	.box_form_size          { width:377px; height:148px; position:relative; top:30px; }
 .img_box_form_input         { background-image:url(images/input_form.png); background-repeat:no-repeat; }
 .ico_size					{ width:16px; height:16px; float:left;}
-.submit                     { background-image:url(images/submit.png); background-repeat:no-repeat; }
+.img_submit                 { background-image:url(images/submit.png); background-repeat:no-repeat; }
+.img_foca                   { background-image:url(images/foca.png); background-repeat:no-repeat; }
+	.img_foca_size          { width:62px; height:80px; }
+.img_box_search             { background-image:url(images/box_search.png); background-repeat:no-repeat; }
+	.box_search_size        { width:522px; height:88px; }
+.img_search_input           { background-image:url(images/search_input.png); background-repeat:no-repeat; }
+	.search_input_size      { width:407px; height:42px; }
+.img_search_magnifier       { background-image:url(images/search_magnifier.png); background-repeat:no-repeat; }           
+	.search_magnifier_size      { width:22px; height:22px; }
 
-/* Menu Superior */
+/* GENERICOS */
+.space_between_word { letter-spacing:2px; }
+.larguraMaxima      { min-width:940px; max-width:940px; } /* Largura da pagina */
+.alturaMaximaHeaderHome { min-height:584px; max-height:584px; } /* Altura maxima do header inicial */
+.alturaMaximaHeader		{ min-height:283px; max-height:283px; } /* Altura maxima do header inicial */
+.centralizarCorpo   { margin:auto 50%; left:-478px; position:relative; } /* Centraliza a pagina no meio do navegador */
+.tamanhoMenu        { width:584px; height:91px; position:relative; left:280px; top:18px; } /* Coloca a medida do menu */
+.tamanhoMenuBottom  { left:0px; }
+.tamanhoLogo        { min-width:250px; min-height:109px; position:absolute; } /* Coloca a medida do logo */
+.tamanhoTwitter     { min-width:60px; min-height:91px; position:absolute; left:880px; top:18px; } /* Coloca a medida no twitter lateral */
+.box_message        { border:0px; }
+
+.font_title { color:#FFF; font-size:2.4em; font-family: 'Helvetica'; font-weight:bold; }
+.font_text  { color:#FFF; font-size:13px; font-family: 'Helvetica'; font-weight:lighter; }
+.font_inputs { color:#bdbdbd; font-size:14px; font-family: 'Helvetica'; font-weight:bold; line-height:15px; }
+.color_title_bottom { color:#2d2d2d; }
+.espacamento_entre_linhas { line-height:18px; }
+
+/* MENU SUPERIOR */
 .menu { list-style-type: none;  position:absolute; left:40px; }
 .menu li { float:left; }
 .menu li a { padding-right: 10px; padding-left: 9px; display: block; line-height: 92px; text-decoration: none;
 font-family: 'GothamHTFBold'; font-size: 18px; color: #FFFFFF; }
 .menu li a:hover { color: #ffba00; }
 
-.menu_bottom { list-style-type: none;  position:absolute; left:40px; }
+.menu_bottom { list-style-type: none;  position:relative; left:40px; }
 .menu_bottom li { float:left; }
 .menu_bottom li a { padding-right: 10px; padding-left: 6px; display: block; line-height: 92px; text-decoration: none;
 font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 .menu_bottom li a:hover { color: #949494; }
 
-/* Conteudos estáticos da pagina inicial */
+/* PAGINA INICIAL */
 #top-container { top:200px; position:absolute; }
 	#left-top-container { width:519px; position:absolute; line-height:16px; }
 	#right-top-container { width:372px; position:absolute; line-height:16px; left:569px; }
@@ -175,11 +186,41 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 	.pos_links div { padding:0px 3px 0px 4px; }
 	
 /* Area de form */
-#form_names { position:relative; }
+#form_names { position:relative; top:0px;}
 	#txtname  { top:20px; left:24px; position:absolute; min-height:42px; width:330px; }
 	#txtemail { top:80px; left:24px; position:absolute; min-height:42px; width:330px; }
 	#form_names_button { top:190px; left:0px; position:absolute; width:376px; height:55px; }
-			.submit { color:#FFF; background-color:transparent; border:0px solid; width:376px; height:55px; font-size:16px; }
+			.submit { color:#FFF; background-color:transparent; border:0px solid; width:376px; height:55px; font-size:16px; cursor:hand; }
 	
-#rights { top:150px; left:24px; position:relative; min-height:42px; }
-	#foca {}
+#rights { left:24px; top:190px; min-height:42px; position:relative; }
+	.copyright { font-size:14px; font-family: 'Helvetica'; font-weight:bold; color:#777; }
+	.copyright_local { font-size:14px; font-family: 'Helvetica'; color:#888; }
+	#foca { position:absolute; top:-10px; left:290px;}
+	
+	
+#rodape {}
+	#rodape-left-container { width:519px; position:absolute; }
+	#rodape-right-container { width:372px; position:relative; left:569px; }
+	
+	
+	
+/* ESTILOS REFERENTES AS PAGINAS INTERNAS DOS POSTS */
+#canvas_post {  }
+#title_post { position:absolute; top:180px; left:0px; color:#FFF; font-size:48px; font-family: 'GothamHTFMedium';
+			text-shadow: 2px 2px 2px #000; }
+
+#search { position:absolute; top:250px; left:0px; }
+	#txtsearch { position:absolute; left:20px; top:20px; color:#888; padding-left:10px; padding-right:60px; }
+	.magnifier { position:absolute; left:465px; top:32px; }
+	
+#tweet_post {  left:517px; top:156px; }
+	.box_tweet_post { position:absolute; font-size:14px; color:#CCC; }
+	#circle_tweet_post   { position:absolute; width:45px; height:45px; top:20px; left:-17px; }
+	.title_position_tweet_post { position:absolute; top:32px; left:43px; color:#FFF; font-size:24px; font-family: 'GothamHTFMedium'; }
+	.quote_position { position:absolute; width:46px; height:34px; top:74px; left:40px; }
+	
+#post_content { width:940px; font-family: 'Helvetica'; color:#5d5d5d;  }
+	#post_content_title { font-size:36px; line-height:32px; }
+	#post_content_text { font-size:16px; line-height:24px; }
+	#post_content_text 	p {text-indent: 10px; }
+	#_mcePaste { text-indent: 50px; }
