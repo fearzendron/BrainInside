@@ -124,7 +124,7 @@
 							<p class="size_name color_title_bottom">Rafael Bueno</p>
 							<p class="ocupation color_title_bottom">Engenheiro de Software</p>
 							<p><a class="color_link_of_us" href="#">artigos escritos (0)</a><p>
-							<p><a class="color_link_of_us" href="#">ver curriculo</a></p>
+							<p><a class="color_link_of_us" href="http://localhost/braininside/?page_id=52">ver curriculo</a></p>
 							<div id="links_network" class="img_box_people_icons">
 								<div class="pos_links">
 									<a href="#"><div class="img_ico1 ico_size"></div></a>
@@ -145,7 +145,7 @@
 							<p class="size_name color_title_bottom">Fernando Zendron</p>
 							<p class="ocupation color_title_bottom">Engenheiro de Software</p>
 							<p><a class="color_link_of_us" href="#">artigos escritos (0)</a><p>
-							<p><a class="color_link_of_us" href="#">ver curriculo</a></p>
+							<p><a class="color_link_of_us" href="http://localhost/braininside/?page_id=50">ver curriculo</a></p>
 							<div id="links_network" class="img_box_people_icons">
 								<div class="pos_links">
 									<a href="#"><div class="img_ico1 ico_size"></div></a>
@@ -183,9 +183,7 @@
 					<br />
 					<br />
 					<br />
-					<br />
-					<br />
-					<br /><?php wp_list_pages(); ?>
+
 				</div>
 			</div>
 		</form>

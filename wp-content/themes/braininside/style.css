@@ -203,6 +203,10 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 	#rodape-right-container { width:372px; position:relative; left:569px; }
 	
 	
+/* PAGINAS DOS ARTIGOS */
+#artigos {
+	
+}
 	
 /* ESTILOS REFERENTES AS PAGINAS INTERNAS DOS POSTS */
 #canvas_post {  }
