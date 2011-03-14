@@ -24,6 +24,7 @@ get_header(); ?>
 			 * called loop-index.php and that will be used instead.
 			 */
 			 get_template_part( 'loop', 'index' );
+
 			?>
 			</div><!-- #content -->
 		</div><!-- #container -->

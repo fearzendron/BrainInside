@@ -185,7 +185,7 @@
 					<br />
 					<br />
 					<br />
-					<br />
+					<br /><?php wp_list_pages(); ?>
 				</div>
 			</div>
 		</form>
