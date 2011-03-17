@@ -46,23 +46,9 @@ Template Name: Artigos
 
 <br /><br /><br /><br /><br />
 
-<div id="artigos" class="centralizarCorpo">
-
-	<?php
-	
-	query_posts('&posts_per_page=10' );
-
-	// The Loop
-	while( have_posts() ) : the_post();
-	 echo '<li>';
-	 the_title();
-	 echo '</li>';
-	endwhile;
-	
-
-	wp_reset_postdata();
-	?>
-</div>
+<?php
+get_template_part( 'loop');
+?>
 
 <br /><br /><br />
 	

@@ -204,8 +204,22 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 	
 	
 /* PAGINAS DOS ARTIGOS */
-#artigos {
-	
+#artigos {}
+#artigo { border-bottom:dotted #5d5d5d thin; }
+.title_post {
+	color:#5d5d5d;
+	font-size:24px;
+	font-family: 'GothamHTFMedium';
+}
+.post_day {
+	color:#a6a6a6;
+	font-size:41px;
+	font-family: 'GothamHTFMedium';
+}
+.post_month_year {
+	color:#a6a6a6;
+	font-size:11px;
+	font-family: 'GothamHTFMedium';
 }
 	
 /* ESTILOS REFERENTES AS PAGINAS INTERNAS DOS POSTS */
