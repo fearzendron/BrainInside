@@ -33,6 +33,12 @@ if (have_posts()) :
    endwhile;
 endif;
 
+if (!have_posts()) :
+	?>
+	No momento não ha posts!
+	<?php
+endif;
+
 wp_reset_postdata();
 ?>
 </div>

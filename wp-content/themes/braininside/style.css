@@ -242,3 +242,40 @@ font-family: 'GothamHTFBold'; font-size: 18px; color: #bdbdbd; }
 	#post_content_text { font-size:16px; line-height:24px; }
 	#post_content_text 	p {text-indent: 10px; }
 	#_mcePaste { text-indent: 50px; }
+	
+	
+/* Estilos da area de projetos */
+#projetos {
+	position:relative;
+}
+.projeto {
+	position:absolute;
+	background-color:#F8F8F8;
+	margin:30px 0px 30px 0px;
+	padding:20px;
+	border-bottom:dotted #5d5d5d thin;
+}
+.projeto h4 {
+	color:#444; font-size:1.8em; font-family: 'Helvetica'; font-weight:bold;
+}
+.projeto span {
+	text-align:justify;
+}
+
+	
+/* Esitlos da área de contato */
+.img_skype       { background-image:url(images/Skype-64.png); background-repeat:no-repeat; }           
+	.img_skype_size      { width:64px; height:64px; }
+.img_email       { background-image:url(images/Email-64.png); background-repeat:no-repeat; }           
+	.img_email_size      { width:64px; height:64px; }
+.img_twitter_contato      { background-image:url(images/twitter_64.png); background-repeat:no-repeat; }           
+	.img_twitter_contato_size      { width:64px; height:64px; }
+#contato {}
+#contato_item {
+	width:450px;
+	height:280px;
+	background-color:#F5F5F5;
+	padding:5px;
+	margin:5px;
+	float:left;
+}

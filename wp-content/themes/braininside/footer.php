@@ -11,16 +11,19 @@
 
 				<div id="menu_bottom" class="img_moldura_menu_bottom tamanhoMenu tamanhoMenuBottom">
 		           	<ul class="menu_bottom">
-						<li><a href="#">HOME</a></li>
-						<li><a href="#"><img border="0" src="wp-content/themes/braininside/images/m_sep.png" /></a></li>
-
-						<li><a href="#">ARTIGOS</a></li>
-						<li><a href="#"><img border="0" src="wp-content/themes/braininside/images/m_sep.png" /></a></li>
-
-						<li><a href="#">PROJETOS</a></li>
-						<li><a href="#"><img border="0" src="wp-content/themes/braininside/images/m_sep.png" /></a></li>
-
-						<li><a href="#">CONTATO</a></li>
+						<script>
+							var url = window.location.href.toString();
+							document.write("<li><a href=\"http://localhost/braininside/\">HOME</a></li>");
+							document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
+				
+							document.write("<li><a href=\"http://localhost/braininside/?page_id=7\">ARTIGOS</a></li>");
+							document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
+				
+							document.write("<li><a href=\"http://localhost/braininside/?page_id=9\">PROJETOS</a></li>");
+							document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
+				
+							document.write("<li><a href=\"http://localhost/braininside/?page_id=5\">CONTATO</a></li>");
+						</script>
 					</ul>
 		        </div>
 			</div>

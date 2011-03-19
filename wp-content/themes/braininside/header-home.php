@@ -54,13 +54,13 @@
 									document.write("<li><a href=\"http://localhost/braininside/\">HOME</a></li>");
 									document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
 						
-									document.write("<li><a href=\"http://localhost/braininside/?page_id=40\">ARTIGOS</a></li>");
+									document.write("<li><a href=\"http://localhost/braininside/?page_id=7\">ARTIGOS</a></li>");
 									document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
 						
-									document.write("<li><a href=\"http://localhost/braininside/?page_id=42\">PROJETOS</a></li>");
+									document.write("<li><a href=\"http://localhost/braininside/?page_id=9\">PROJETOS</a></li>");
 									document.write("<li><a href=\"javascript:void(0);\"><img border=\"0\" src=\"wp-content/themes/braininside/images/m_sep.png\" /></a></li>");
 						
-									document.write("<li><a href=\"http://localhost/braininside/?page_id=42\">CONTATO</a></li>");
+									document.write("<li><a href=\"http://localhost/braininside/?page_id=5\">CONTATO</a></li>");
 								</script>
 							</ul>
             </div>
