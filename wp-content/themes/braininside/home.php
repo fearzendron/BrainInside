@@ -124,16 +124,16 @@
 							<p class="size_name color_title_bottom">Rafael Bueno</p>
 							<p class="ocupation color_title_bottom">Engenheiro de Software</p>
 							<p><a class="color_link_of_us" href="#">artigos escritos (0)</a><p>
-							<p><a class="color_link_of_us" href="http://localhost/braininside/?page_id=13">ver curriculo</a></p>
+							<p><a class="color_link_of_us" href="http://localhost/braininside/?page_id=13" target="_BLANK">ver curriculo</a></p>
 							<div id="links_network" class="img_box_people_icons">
 								<div class="pos_links">
-									<a href="#"><div class="img_ico1 ico_size"></div></a>
-									<a href="#"><div class="img_ico2 ico_size"></div></a>
-									<a href="#"><div class="img_ico3 ico_size"></div></a>
-									<a href="#"><div class="img_ico4 ico_size"></div></a>
-									<a href="#"><div class="img_ico5 ico_size"></div></a>
-									<a href="#"><div class="img_ico6 ico_size"></div></a>
-									<a href="#"><div class="img_ico7 ico_size"></div></a>
+									<a href="javascript:void(0);" target="_BLANK"><div class="img_ico1 ico_size"></div></a>
+									<a href="http://www.delicious.com/rafbueno" target="_BLANK"><div class="img_ico2 ico_size"></div></a>
+									<a href="http://www.linkedin.com/in/rafbueno" target="_BLANK"><div class="img_ico3 ico_size"></div></a>
+									<a href="mailto:raf.bueno@hotmail.com" target="_BLANK"><div class="img_ico4 ico_size"></div></a>
+									<a href="http://twitter.com/rafbueno" target="_BLANK"><div class="img_ico5 ico_size"></div></a>
+									<a href="javascript:void(0);" target="_BLANK"><div class="img_ico6 ico_size"></div></a>
+									<a href="mailto:rafbueno@gmail.com" target="_BLANK"><div class="img_ico7 ico_size"></div></a>
 								</div>
 							</div>
 						</div>
@@ -145,16 +145,16 @@
 							<p class="size_name color_title_bottom">Fernando Zendron</p>
 							<p class="ocupation color_title_bottom">Engenheiro de Software</p>
 							<p><a class="color_link_of_us" href="#">artigos escritos (0)</a><p>
-							<p><a class="color_link_of_us" href="http://localhost/braininside/?page_id=11">ver curriculo</a></p>
+							<p><a class="color_link_of_us" href="http://localhost/braininside/?page_id=11" target="_BLANK">ver curriculo</a></p>
 							<div id="links_network" class="img_box_people_icons">
 								<div class="pos_links">
-									<a href="#"><div class="img_ico1 ico_size"></div></a>
-									<a href="#"><div class="img_ico2 ico_size"></div></a>
-									<a href="#"><div class="img_ico3 ico_size"></div></a>
-									<a href="#"><div class="img_ico4 ico_size"></div></a>
-									<a href="#"><div class="img_ico5 ico_size"></div></a>
-									<a href="#"><div class="img_ico6 ico_size"></div></a>
-									<a href="#"><div class="img_ico7 ico_size"></div></a>
+									<a href="http://pt-br.facebook.com/people/Fernando-Zendron/1517985173" target="_BLANK"><div class="img_ico1 ico_size"></div></a>
+									<a href="http://www.delicious.com/zendron" target="_BLANK"><div class="img_ico2 ico_size"></div></a>
+									<a href="http://www.linkedin.com/pub/fernando-zendron/4/a78/7b8" target="_BLANK"><div class="img_ico3 ico_size"></div></a>
+									<a href="mailto:fearzendron@hotmail.com" target="_BLANK"><div class="img_ico4 ico_size"></div></a>
+									<a href="http://www.twitter.com/fearzendron" target="_BLANK"><div class="img_ico5 ico_size"></div></a>
+									<a href="#" target="_BLANK"><div class="img_ico6 ico_size"></div></a>
+									<a href="mailto:fearzendron@gmail.com" target="_BLANK"><div class="img_ico7 ico_size"></div></a>
 								</div>
 							</div>
 						</div>

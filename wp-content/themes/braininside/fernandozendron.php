@@ -1,42 +1,45 @@
-<?php
-/*
-Template Name: Fernando Zendron
-*/
-?>
+	<!DOCTYPE html>
+	<html lang="pt">
+	<head>
+	  <meta charset="utf-8" /><title>Article (HTML5)</title>
+	</head>
 
-<?php get_header(); ?>
-
-	<!-- A abertura das tags estão no header -->
+	<body>
+		<header id="branding">
+			<h1>Site name</h1>
+		</header>
+	
+		<nav>
+			<ul>
+				<li>Main navigation</li>
+			</ul>
+		</nav>
+	
+		<div id="content"> <!-- wrapper for CSS styling & no title so not section -->
+			<article><!-- main content (the article) -->
+				<header>
+					<h1>Article title</h1>
+					<p>Article metadata</p>
+				</header>
 		
-		<div id="canvas_post">
-			<div id="title_post">
-				Fernando Zendron<font color="#ffba00">.</font>
-			</div>
+				<p>Article content…</p>
+	
+				<footer>Article footer</footer>
+			
+			</article>
 		
-			<div id="tweet_post" class="box_tweet_post img_box_tweet_post box_tweet_post_size">
-				<div id="circle_tweet_post" class="img_circle_tweet"></div>
-				<p class="title_position_tweet_post">Último tweet</p>
-				<div class="img_quotes quote_position"></div>
-				<div style="width:350px; margin-top:75px; margin-left:70px;">
-					<p>
-						<?php
-						//Pega o endereço do twitter como rss e mostra na nossa pagina
-						 $url = "http://twitter.com/statuses/user_timeline/16948131.rss?count=1";
-						try {
-							 $xml = simplexml_load_file($url); //Objeto ja incluido no php
-							foreach ($xml->channel->item as $node) {
-								printf('<a href="%s" target="_BLANCK">%s</a>', $node->link, $node->title);
-							}
-						} catch (Exception $e) {
-							echo "Erro ao carregar tweet!";
-						}
-						?>
-					</p>
-				</div>
-			</div>
+			<aside id="sidebar"><!-- secondary content for page (not related to article) -->
+				<h1>Sidebar title</h1> <!-- ref: HTML5-style heading element levels -->
+				<p>Sidebar content</p>
+			</aside>
 		</div>
 		
-	</div> <!-- Interno cabeçalho -->
-</div> <!-- Cabeçalho -->
+		<footer id="footer">Footer</footer><!-- page footer (not in section etc) -->
+	</body>
+	
+	<script>
+		window.resizeTo("1000", "720");
+		window.moveBy((screen.width / 2), 0);
+	</script>
 
-<br /><br /><br /><br /><br />
+</html>
