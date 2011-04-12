@@ -96,6 +96,7 @@ a:active {text-decoration: none; color: #ffba00;}
 .img_ico5                   { background-image:url(images/ico5.png); background-repeat:no-repeat; }
 .img_ico6                   { background-image:url(images/ico6.png); background-repeat:no-repeat; }
 .img_ico7                   { background-image:url(images/ico7.png); background-repeat:no-repeat; }
+.img_ico8                   { background-image:url(images/ico8.png); background-repeat:no-repeat; }
 .img_box_form               { background-image:url(images/box_form.png); background-repeat:no-repeat; }
 	.box_form_size          { width:377px; height:148px; position:relative; top:30px; }
 .img_box_form_input         { background-image:url(images/input_form.png); background-repeat:no-repeat; }

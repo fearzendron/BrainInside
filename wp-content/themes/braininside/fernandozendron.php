@@ -1,45 +1,41 @@
 	<!DOCTYPE html>
 	<html lang="pt">
 	<head>
-	  <meta charset="utf-8" /><title>Article (HTML5)</title>
+		<meta charset="utf-8" />
+		<title>Fernando Zendron</title>
+
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/curriculo.css" media="screen" />
 	</head>
 
 	<body>
-		<header id="branding">
-			<h1>Site name</h1>
-		</header>
-	
-		<nav>
-			<ul>
-				<li>Main navigation</li>
-			</ul>
-		</nav>
-	
-		<div id="content"> <!-- wrapper for CSS styling & no title so not section -->
-			<article><!-- main content (the article) -->
-				<header>
-					<h1>Article title</h1>
-					<p>Article metadata</p>
-				</header>
-		
-				<p>Article content…</p>
-	
-				<footer>Article footer</footer>
+
+		<div class="rafael_robo alinhaRobo"></div>
+		<div class="img_background centralizarCorpo">
+			<div class="alinhaFace face"></div>
+
+			<div class="title_curriculo">
+				<span class="name">Fernando Zendron</span><br />
+				<span class="job">System Engineer</span>
+			</div>
+
+			<div class="detalhes detalhesPos">
+				<span class="gmail">fearzendron@gmail.com</span><br />
+				<span class="hotmail">fearzendron@hotmail.com</span><br />
+				<span class="twitter">@fearzendron</span>
+			</div>
 			
-			</article>
-		
-			<aside id="sidebar"><!-- secondary content for page (not related to article) -->
-				<h1>Sidebar title</h1> <!-- ref: HTML5-style heading element levels -->
-				<p>Sidebar content</p>
-			</aside>
+			<div class="resume">
+				Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla non metus auctor fringilla.
+			</div>
+
+			<div class="alinhaMaos robo_maos"></div>
 		</div>
-		
-		<footer id="footer">Footer</footer><!-- page footer (not in section etc) -->
+
 	</body>
 	
 	<script>
-		window.resizeTo("1000", "720");
-		window.moveBy((screen.width / 2), 0);
+		//window.resizeTo("1000", "1532");
+		//window.moveBy(0, 0);
 	</script>
 
 </html>

@@ -127,12 +127,12 @@
 							<p><a class="color_link_of_us" href="http://localhost/braininside/?page_id=13" target="_BLANK">ver curriculo</a></p>
 							<div id="links_network" class="img_box_people_icons">
 								<div class="pos_links">
-									<a href="javascript:void(0);" target="_BLANK"><div class="img_ico1 ico_size"></div></a>
+									<a href="http://pt-br.facebook.com/people/Rafael-Bueno/100001204191804" target="_BLANK"><div class="img_ico1 ico_size"></div></a>
 									<a href="http://www.delicious.com/rafbueno" target="_BLANK"><div class="img_ico2 ico_size"></div></a>
 									<a href="http://www.linkedin.com/in/rafbueno" target="_BLANK"><div class="img_ico3 ico_size"></div></a>
 									<a href="mailto:raf.bueno@hotmail.com" target="_BLANK"><div class="img_ico4 ico_size"></div></a>
 									<a href="http://twitter.com/rafbueno" target="_BLANK"><div class="img_ico5 ico_size"></div></a>
-									<a href="javascript:void(0);" target="_BLANK"><div class="img_ico6 ico_size"></div></a>
+									<a href="http://code.google.com/u/@WRNXR1VRBBVCXgl%2F/" target="_BLANK"><div class="img_ico6 ico_size"></div></a>
 									<a href="mailto:rafbueno@gmail.com" target="_BLANK"><div class="img_ico7 ico_size"></div></a>
 								</div>
 							</div>
@@ -153,7 +153,7 @@
 									<a href="http://www.linkedin.com/pub/fernando-zendron/4/a78/7b8" target="_BLANK"><div class="img_ico3 ico_size"></div></a>
 									<a href="mailto:fearzendron@hotmail.com" target="_BLANK"><div class="img_ico4 ico_size"></div></a>
 									<a href="http://www.twitter.com/fearzendron" target="_BLANK"><div class="img_ico5 ico_size"></div></a>
-									<a href="#" target="_BLANK"><div class="img_ico6 ico_size"></div></a>
+									<a href="https://github.com/fearzendron" target="_BLANK"><div class="img_ico8 ico_size"></div></a>
 									<a href="mailto:fearzendron@gmail.com" target="_BLANK"><div class="img_ico7 ico_size"></div></a>
 								</div>
 							</div>
